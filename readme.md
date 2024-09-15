@@ -12,7 +12,7 @@
 
 <p align="center">
   <h3 align="center">🔍 Scanner de Portas TCP</h3>
-Este projeto ensina a desenvolver um scanner de portas TCP utilizando Python e a biblioteca Nmap. Exploramos três métodos de varredura: **SYN**, **UDP** e **Comprehensive**, fundamentais para detectar portas abertas e coletar informações de rede.
+Este projeto ensina a desenvolver um scanner de portas TCP utilizando Python e a biblioteca Nmap. Exploramos três métodos de varredura: SYN, UDP e Full Scan, fundamentais para detectar portas abertas e coletar informações de rede.
 </p>
 
 ## 📋 Índice
@@ -27,7 +27,7 @@ Este projeto ensina a desenvolver um scanner de portas TCP utilizando Python e a
 
 ## 📝 Introdução
 
-Este laboratório foi desenvolvido para ensinar como implementar um scanner de portas TCP em Python, utilizando a biblioteca `nmap` e `colorama`. A ideia principal é explorar como a detecção de portas abertas e serviços pode ser feita através de três métodos de varredura.
+Este projeto foi desenvolvido para ensinar como implementar um scanner de portas TCP em Python, utilizando a biblioteca `nmap`. A ideia principal é explorar como a detecção de portas abertas e serviços pode ser feita através de três métodos de varredura.
 
 ---
 
@@ -35,9 +35,9 @@ Este laboratório foi desenvolvido para ensinar como implementar um scanner de p
 
 Este projeto implementa três métodos principais de varredura:
 
-- **SYN Scan**: Método rápido e furtivo, onde apenas um pacote SYN é enviado ao alvo. Se a porta estiver aberta, um pacote SYN-ACK será retornado.
-- **UDP Scan**: Utilizado para descobrir serviços que utilizam o protocolo UDP. Este tipo de varredura não é tão confiável quanto a SYN, mas é crucial para a descoberta de portas UDP.
-- **Comprehensive Scan**: Combina várias técnicas, incluindo SYN, ACK e UDP, para proporcionar uma varredura completa e profunda.
+- SYN Scan: Método rápido e furtivo, onde apenas um pacote SYN é enviado ao alvo. Se a porta estiver aberta, um pacote SYN-ACK será retornado.
+- UDP Scan: Utilizado para descobrir serviços que utilizam o protocolo UDP. Este tipo de varredura não é confiável como a SYN, mas é crucial para a descoberta de portas UDP.
+- Full Scan: Combina várias técnicas, incluindo SYN, ACK e UDP, para proporcionar uma varredura completa e profunda.
 
 ---
 
